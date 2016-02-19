@@ -6,7 +6,7 @@
 body {
   width: 100%;
   height: 100vh;
-  background-color: darkseagreen;
+  background-color: #e1e7cf;
   font-family: 'Abel', sans-serif;
 }
 
@@ -16,7 +16,7 @@ body {
 }
 /* NAVBAR */
 .navbar {
-  background-color: #e8e8e8;
+  background-color: #d4d4d4;
   height: 15vh;
 }
 
@@ -44,20 +44,20 @@ a:hover {
 
 /* ADDRESS BOX */
 .textbox {
+  float: left;
+  margin: 2vh 0;
 }
 .textbox h1 {
-  float: left;
-  font-size: 2em;
+  font-size: 1.3em;
 }
-.textbox h4 {
-  float: left;
-}
+
 
 /* COLUMNS */
 .big {
 }
 .big img {
   width: 100%;
+  height: 40vh;
 }
 
 .small {
