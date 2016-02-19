@@ -10,30 +10,26 @@ body {
   font-family: 'Josefin Slab', serif;
   font-weight: lighter;
 }
-
-.wrapper {
-  width: 90%;
-  margin: 3vh 5%;
-}
 /* NAVBAR */
 .navbar {
   background-color: #e8e8e8;
-  height: 15vh;
+  height: 90px;
 }
 .navbar h1 {
   background-color: white;
-  margin: 0;
-  padding: 2vh 0;
-  padding-left: 12%;
+  padding: 15px 0;
+  padding-left: 15px;
 }
-.navbar li {
+.nav ul {
+}
+.nav li {
   font-size: .8em;
   float: left;
   padding: 1vh 2%;
   list-style: none;
 }
-.navbar li:first-child {
-  margin-left: -10px;
+.nav li:first-child {
+  margin-left: -7%;
 }
 a {
   color: black;
@@ -47,7 +43,8 @@ a:hover {
 .textbox {
   color: white;
   float: left;
-  margin: 2vh 0;
+  margin-top: 225px;
+  margin-left: 10px;
 }
 .textbox h1 {
   font-size: 1.3em;
@@ -61,28 +58,29 @@ a:hover {
   font-size: 1em;
   margin: 0 3%;
 }
-.big {
+.image {
   margin-top: 70px;
   height: 47vh;
+  background-image: url("../img/departure.jpg");
+  background-size: cover;
+  width: 90%;
+  margin: 3vh 5%;
 }
-.big i {
+.image i {
   padding: 5px;
 }
-.big img {
+.image img {
   width: 100%;
   height: 40vh;
 }
-.top h1 {
+.feature h1 {
   font-size: 2.5vh;
 }
-.top i {
+.feature i {
   padding: 5px;
 }
-.top, .small {
+.feature, .description {
   padding: 2.5vh 3%;
-  margin: 3vh 0;
-}
-.small {
-  padding: 5.5%;
-  margin: 3vh 0;
+  width: 90%;
+  margin: 3vh 5%;
 }
