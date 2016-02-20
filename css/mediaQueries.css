@@ -118,3 +118,9 @@
     width: 14%;
   }
 }
+
+@media only screen and (min-width: 1420px) {
+  .navbar {
+    width: 14%;
+  }
+}
