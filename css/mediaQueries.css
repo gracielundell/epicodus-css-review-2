@@ -4,14 +4,14 @@
   }
   .navbar {
     position: absolute;
-    top: 5vh;
-    left: 7%;
+    top: 3vh;
+    left: 5%;
     background-color: white;
     width: 23%;
     height: 15vh;
   }
   .navbar h1 {
-    padding-left: 0;
+    padding-left: 10px;
   }
   .nav {
     float: left;
@@ -26,20 +26,14 @@
   .nav li:first-child {
     margin-left: 0;
   }
-  .image {
-    margin-top: 0;
-    width: 100%;
-    margin: 0;
-    height: 60vh;
-  }
   .textbox {
     position: absolute;
-    top: 335px;
-    left: 50px;
+    top: 320px;
+    left: 15px;
   }
   .column {
     width: 42%;
-    height: 35vh;
+    height: 32.5vh;
     margin: 3.7vh 5%;
     float: left;
     background-color: #E9893A;
@@ -60,20 +54,49 @@
   .description p {
     margin-top: 80px;
   }
+  .image {
+    margin-top: 0;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    height: 60vh;
+  }
 }
 
+
+
+
 @media only screen and (min-width:1024px){
-  .image{
+  .navbar {
+    margin-top: 20px;
+    width: 11%;
+    height: 17vh;
+  }
+  .nav li {
+    margin-right: 40px;
+  }
+  .column{
+  width: 36%;
+  height: 44vh;
+  margin: 4vh 0 0 2%;
+  }
+  .image {
   width: 60%;
-  height: 90vh;
-  margin: 5vh 5%;
-}
-.column{
-  width: 25%;
-  height: 42.5vh;
-  margin: 5vh 5% 5vh 0;
-}
-.feature {
-  margin: 5vh 5% 0 0%;
-}
+  height: 100vh;
+  margin: 0;
+  }
+  .navbar {
+    position: absolute;
+    left: 50px;
+  }
+  .textbox {
+    position: absolute;
+    top: 600px;
+  }
+  .feature h1{
+    margin-top: 33%;
+  }
+  .description p {
+    margin-top: 27%;
+  }
 }
