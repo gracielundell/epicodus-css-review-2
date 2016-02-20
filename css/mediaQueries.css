@@ -1,3 +1,10 @@
+@media only screen and (min-width: 512px) {
+  .textbox {
+    margin-left: -45vw;
+    margin-top: 44vh;
+  }
+}
+
 @media only screen and (min-width: 760px) {
   body {
     background-color: white;
@@ -28,8 +35,9 @@
   }
   .textbox {
     position: absolute;
-    top: 320px;
-    left: 15px;
+    z-index: 1;
+    margin-top: 53vh;
+    margin-left: 6vw;
   }
   .column {
     width: 42%;
