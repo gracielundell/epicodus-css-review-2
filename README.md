@@ -6,7 +6,7 @@ Responsive CSS Exercise for Epicodus, 02.12.2016
 ##Description
 
 ##Setup
-This project is hosted using GitHub pages and my be viewed (here)[].
+This project is hosted using GitHub pages and my be viewed (here)[http://gracielundell.com/epicodus-css-review-2/].
 
 ##Technologies
 HTML, CSS, Media Queries
